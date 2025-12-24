@@ -119,7 +119,7 @@ export default function Login({ status, canResetPassword }: any) {
                     {/* Login Form */}
                     <div className="glass w-full shadow-2xl relative transition-all duration-500 animate-fadeIn" style={{ maxWidth: '392px' }}>
                         {/* Header */}
-                        <div className="mb-6">
+                        <div style={{ marginBottom: '21px' }}>
                             <h2 className="text-left">
                                 {t.welcome}
                             </h2>
@@ -234,7 +234,7 @@ export default function Login({ status, canResetPassword }: any) {
                         </form>
 
                         {/* Divider */}
-                        <div className="relative my-4 md:my-6">
+                        <div className="relative" style={{ marginTop: '21px', marginBottom: '21px' }}>
                             <div className="absolute inset-0 flex items-center">
                                 <div className="w-full border-t border-slate-100"></div>
                             </div>
@@ -255,7 +255,7 @@ export default function Login({ status, canResetPassword }: any) {
                         </div>
 
                         {/* Footer links */}
-                        <div className="mt-4 md:mt-6 flex justify-center" style={{ gap: '21px' }}>
+                        <div className="flex justify-center" style={{ marginTop: '21px', gap: '21px' }}>
                             <button 
                                 type="button" 
                                 style={{
